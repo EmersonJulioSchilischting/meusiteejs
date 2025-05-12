@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Fugaz+One&family=Poiret+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#imgFixa{
+    background-image: url('../img/novas-tecnologias-futuro.jpg');
+    width: 100%;
+    height: 755px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+
+}
+#imgFixa h1{
+    text-align: center;
+    align-items: center;
+    padding: 20%;
+    color: aliceblue;
+    font-size: 100px;
+    font-family: Fugaz;
+
+}
+
+.biografia{
+    display: flex;
+    padding: 40px;
+
+}
+.biografia p{
+    font-size: 20px;
+}
+.biografia a{
+    font-size: 20px;
+}
+.biografia h3{
+    font-size: 30px;
+}
+
+.biografia img{
+    border-radius: 50px;
+}
+
+.sobremim{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 70%;
+}
+.leituras{
+    width: 70%;
+}
+.linksobremim:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.linkimg:hover{
+    transform: scale(1.2);
+    
+}
+.imgbotaojs:hover{
+    transform: scale(1.2);
+}
+
+.hobbies{
+    display: flex;
+    background-color: #ccdbe3;
+    padding: 30px;
+}
+.imghobbie{
+    border-radius: 50px;
+}
+.hobbiestxt{
+    width: 30%;
+    font-family:Condiment ;
+    font-size: 30px;
+    padding-left: 40px;
+    margin: 30px;
+}
+.hobbiestxt ul{
+    line-height: 70px;
+}
+
+.tabela1{
+    border: 1px solid black;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.tabela1 td{
+    border: 1px solid black;
+}
+#trocap{
+    width: 200px;
+}
